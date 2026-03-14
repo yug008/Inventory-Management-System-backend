@@ -1,0 +1,10 @@
+import React from 'react'
+
+interface ThemeProviderProps {
+  children: React.ReactNode
+  [key: string]: any
+}
+
+export function ThemeProvider({ children }: ThemeProviderProps) {
+  return <>{children}</>
+}
